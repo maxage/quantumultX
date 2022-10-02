@@ -16,7 +16,7 @@ WX: L-190705
 
 [rewrite_local]
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body aptvpro.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/maxage/quantumultX/main/aptvpro.js
 
 
 [mitm]
